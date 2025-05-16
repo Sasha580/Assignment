@@ -69,8 +69,8 @@ In the notebook interface, go to the **Kernel** menu and select **Restart & Run 
 
 ## Output
 - Trained model weights (saved under `./saved_weights/`)
-- `best_model.pth`: model with highest validation accuracy
-- `training_results.txt`: training and validation logs
+- `model_[epoch].pth`: current model with highest validation accuracy
+- `results.txt`: training and validation logs
 - Plots of training/validation accuracy and loss over epochs
 
 ## User preference simulation
